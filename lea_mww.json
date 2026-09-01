@@ -2,7 +2,8 @@
   "type": "micro",
   "wake_word": "Léa",
   "author": "Cyril",
-  "model": "lea_mww.tflite",
+  "website": "https://github.com",
+  "model": "https://raw.githubusercontent.com/CyrilP/mww_models/refs/heads/main/lea_mww.tflite",
   "trained_languages": [
     "fr"
   ],
