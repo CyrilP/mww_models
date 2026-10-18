@@ -1,0 +1,15 @@
+{
+  "type": "micro",
+  "wake_word": "Léa",
+  "author": "Cyril",
+  "model": "lea_fr.tflite",
+  "trained_languages": ["fr"],
+  "version": 2,
+  "micro": {
+    "probability_cutoff": 0.82,
+    "sliding_window_size": 5,
+    "feature_step_size": 10,
+    "tensor_arena_size": 30000,
+    "minimum_esphome_version": "2024.7.0"
+  }
+}
